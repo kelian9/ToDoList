@@ -1,0 +1,35 @@
+@import '../../../common/styles/variables.scss';
+
+.cardContainer {
+    margin: 32px 0 32px;
+    width: 390px;
+    outline: 'none';
+    background: 'none';
+    box-shadow: 'none';
+}
+
+.cardTitleContainer {
+    margin-left: 36px;
+    @extend %display-flex-row;
+    justify-content: flex-start;
+
+    &__line {
+        width: 5px;
+        height: 40px;
+        border-radius: 3px;
+        background: #A9A9A9;
+    }
+
+    &__taskName {
+        margin-left: 10px;
+        font-family: 'Abhaya Libre', serif;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: #F4F4F4;
+    }
+}
+
+.taskContainer:not(:first-child) {
+    margin-top: 15px;
+}

@@ -1,0 +1,35 @@
+@import '../../../common/styles/variables.scss';
+
+.taskContainer {
+    @extend %display-flex-row;
+    justify-content: flex-start;
+
+    &__line {
+        content: '';
+        min-width: 5px;
+        height: 40px;
+        border-radius: 3px;
+        background: #A9A9A9;
+    }
+
+    &__heading {
+        margin-left: 11px;
+        min-width: 250px;
+        height: 42px;
+        @extend %display-flex-column;
+        align-items: flex-start;
+        font-family: 'Abhaya Libre', serif;
+        font-style: normal;
+        font-weight: 600;
+    }
+}
+
+.title {
+    font-size: 24px;
+    color: #F4F4F4;
+}
+
+.description {
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.6);
+}

@@ -1,0 +1,11 @@
+@import url('@common/variables.scss');
+
+.error-boundary-view {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(137, 31, 31);
+    font-size: 36px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: aliceblue;
+}
