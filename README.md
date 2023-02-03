@@ -13,7 +13,7 @@ Axios - https://axios-http.com/
 React-Query - https://react-query-v3.tanstack.com/  
 Sass/Scss - https://sass-lang.com/  
 PostCss - https://postcss.org/ (Only autoprefixer)  
-MUI - https://mui.com/ 
+MUI - https://mui.com/  
 Cypress - https://www.cypress.io/  
 ESLint - https://eslint.org/  
 Prettier - https://prettier.io/  
